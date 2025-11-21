@@ -6,9 +6,8 @@ public class MainIF {
 
         System.out.println("ชื่อ-สกุล");
         System.out.println("Program Grade");
-        System.out.println("*****************************************************");
 
-        System.out.print("Enter your score\n> ");
+        System.out.println("Enter your score: ");
         int score = scanner.nextInt();
 
         int grade;
@@ -24,10 +23,7 @@ public class MainIF {
             grade = 0;
         }
 
-        System.out.println();
-        System.out.println("คะแนนของคุณคือ: " + score);
-        System.out.println("เกรดที่ได้คือ: " + grade);
-
-        scanner.close();
+        System.out.println("Is your score?: " + score);
+        System.out.println("Your grade is: " + grade);
     }
 }
