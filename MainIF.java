@@ -4,7 +4,7 @@ public class MainIF {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("ชื่อ-สกุล");
+        System.out.println("Pongpisut ruktao 35 dbt2/2");
         System.out.println("Program Grade");
 
         System.out.println("Enter your score: ");
